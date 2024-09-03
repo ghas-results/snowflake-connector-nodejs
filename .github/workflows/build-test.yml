@@ -55,7 +55,7 @@ jobs:
               with:
                 python-version: '3.7'
             - name: Download Build Artifacts
-              uses: actions/download-artifact@v1
+              uses: actions/download-artifact@v4.1.7
               with:
                 name: artifacts
             - name: Install Homebrew Bash
@@ -86,7 +86,7 @@ jobs:
                 python-version: '3.7'
                 architecture: 'x64'
             - name: Download Build Artifacts
-              uses: actions/download-artifact@v1
+              uses: actions/download-artifact@v4.1.7
               with:
                 name: artifacts
             - name: Tests
@@ -114,7 +114,7 @@ jobs:
               with:
                 python-version: '3.7'
             - name: Download Build Artifacts
-              uses: actions/download-artifact@v1
+              uses: actions/download-artifact@v4.1.7
               with:
                 name: artifacts
             - name: Tests
@@ -142,7 +142,7 @@ jobs:
               with:
                 python-version: '3.7'
             - name: Download Build Artifacts
-              uses: actions/download-artifact@v1
+              uses: actions/download-artifact@v4.1.7
               with:
                 name: artifacts
             - name: Install Homebrew Bash
@@ -173,7 +173,7 @@ jobs:
                 python-version: '3.7'
                 architecture: 'x64'
             - name: Download Build Artifacts
-              uses: actions/download-artifact@v1
+              uses: actions/download-artifact@v4.1.7
               with:
                 name: artifacts
             - name: Tests
@@ -203,7 +203,7 @@ jobs:
               with:
                 python-version: '3.7'
             - name: Download Build Artifacts
-              uses: actions/download-artifact@v1
+              uses: actions/download-artifact@v4.1.7
               with:
                 name: artifacts
             - name: Tests
